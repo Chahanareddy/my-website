@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bgimage3.png);
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav tr td {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 30px;
+}
+
+.Welcome{
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+}
+
+.bigname{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    font-size:50px;
+}
+
+.website{
+    position: absolute;
+    top: 57%;
+    left: 2%;
+    font-size: 20px;
+}
+
+.myimage{
+    width: 450px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.biography{
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    font-family: cursive;
+    font-size: 15px;
+    color: #727272;
+}
+
+.res{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 20px;
+    border-radius: 70px;
+    border-top-right-radius: 0;
+
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}

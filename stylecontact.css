@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.chero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(contactbg.jpg);
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.email{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+
+.emailadd1{
+
+    font-size: 25px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.emailadd2{
+    font-size: 25px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 57%;
+    left: 42%;
+}
+
+.phonenum{
+    font-size: 45px;
+    color:azure;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+}
+
+.number{
+    font-size: 25px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 85%;
+    left: 46%;
+}
+
+nav{
+
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav tr td {
+    font-family: 'Poppins', sans-serif; 
+    display: inline-block;
+    list-style: none;
+    margin: 15px 30px;
+}
