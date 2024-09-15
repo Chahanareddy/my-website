@@ -28,20 +28,20 @@ nav tr td {
 .Welcome{
     font-size: 20px;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 2%;
 }
 
 .bigname{
     position: absolute;
-    top: 48%;
+    top: 43%;
     left: 2%;
     font-size:50px;
 }
 
 .website{
     position: absolute;
-    top: 57%;
+    top: 52%;
     left: 2%;
     font-size: 20px;
 }
